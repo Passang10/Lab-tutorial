@@ -1,1 +1,36 @@
 Kathmandu momo Resturtant; Three of us ate goat nepali thali which was delicious and mouth watering. i would love to come back again with and have delicious meal, maybe chicken khana this time. 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Birthday</th>
+    <th>Phone</th>    
+  </tr>
+  <tr>
+    <td>Tashi Kelzang</td>
+    <td>24/12</td>    
+    <td>0452533332</td>
+  </tr>
+   <tr>
+    <td>Passang Dorji</td>
+    <td>29/11</td>    
+    <td>0452534436</td>
+  </tr>
+  <tr>
+    <td>Tshewang Dorji</td>
+    <td>13/10</td>    
+    <td>0452534436</td>
+  </tr>
+</table>
+</body>
+</html>
