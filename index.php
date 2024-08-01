@@ -1,14 +1,13 @@
 <?php
-function triangle_area($base, $height) {
-    return ($base * $height) / 2;
+function findSingleNumber($arr) {
+    $result = 0;
+    foreach ($arr as $num) {
+        $result ^= $num; // XOR operation
+    }
+    return $result;
 }
 
 // Example usage:
-$base = 3;
-$height = 5;
-echo "The area of the triangle is: " . triangle_area($base, $height);
+$input = array(5, 3, 4, 3, 4);
+echo "The single number in the array is: " . findSingleNumber($input);
 ?>
-
-
-
-
