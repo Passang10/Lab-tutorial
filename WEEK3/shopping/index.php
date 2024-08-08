@@ -18,3 +18,4 @@ if (!isset($_SESSION['user']) || $_SESSION['user'] !== 'shopping') {
     <a href="../logout.php">Logout</a>
 </body>
 </html>
+
